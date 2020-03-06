@@ -379,8 +379,8 @@ treeview.view rubberband,
 flowbox rubberband,
 rubberband{
 
-  border: 1px solid #1954ad;
-  background-color: rgba(25, 84, 173, 0.2); }
+  border: 1px solid #aaaaaa;
+  background-color: rgba(170, 170, 170, 0.2); }
 
 flowbox flowboxchild {
 
