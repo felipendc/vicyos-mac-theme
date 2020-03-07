@@ -62,7 +62,7 @@
 @define-color wm_button_close_active_bg #f13039;
 @define-color wm_icon_close_bg #F8F8F9;
 @define-color wm_button_hover_bg #fdfdfd;
-@define-color wm_button_active_bg #2357d6;
+@define-color wm_button_active_bg #999999;
 @define-color wm_button_hover_border #D1D3DA;
 @define-color wm_icon_bg #90949E;
 @define-color wm_icon_unfocused_bg #B6B8C0;
@@ -124,24 +124,24 @@
 
 .gtkstyle-fallback {
 
-  background-color: #2357d6;
+  background-color: #999999;
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
   
 .gtkstyle-fallback:active,
 .gtkstyle-fallback:hover {
 
-  background-color: #2357d6;
+  background-color: #999999;
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 .gtkstyle-fallback:disabled {
 
@@ -150,13 +150,13 @@
   
 .gtkstyle-fallback:selected {
 
- background-color: #2357d6;
+ background-color: #999999;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 /* ((((((((((((((((( view ))))))))))))))))) */
 
@@ -189,10 +189,10 @@ iconview text:selected,
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #4d4d4d; 
   border-radius: 2px; }
   
@@ -207,10 +207,10 @@ iconview text selection:disabled {
 
    color: rgba(92,137,184,1);
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);}
   
 /*(((((((((((((( CHECKBUTTONS  ))))))))))))))))))*/
 
@@ -391,11 +391,11 @@ flowbox flowboxchild:selected{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  background-color: #2357d6;}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+  background-color: #999999;}
 
 flowbox flowboxchild:disabled:selected{
 
@@ -458,7 +458,7 @@ treeview.view:disabled:selected:focus{
 
 treeview.view acceleditor > label {
 
-  background-color: #2357d6; }
+  background-color: #999999; }
 
 treeview.view.separator {
 
@@ -500,10 +500,10 @@ treeview.view.expander:selected:hover {
 
   color: #ffffff;
 text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 treeview.view.expander:checked {
 
@@ -559,7 +559,7 @@ treeview.view header button {
 
 treeview.view header button:hover {
 
-  color: #2357d6; }
+  color: #999999; }
 
 treeview.view header button:active:hover,
 treeview.view header button:active {
@@ -589,10 +589,10 @@ treeview.view button.dnd:selected{
   transition: none;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    background-color: rgba(83,83,83,1);
   border-radius: 0;
   border-style: none; }
@@ -633,10 +633,10 @@ label:selected{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 label:disabled:selected{
 
@@ -646,11 +646,11 @@ label selection {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  background-color: #2357d6; }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+  background-color: #999999; }
   
 label:disabled {
 
@@ -843,11 +843,11 @@ entry:focus {
   padding: 1px 4px 1px 4px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);}
@@ -883,10 +883,10 @@ entry:disabled {
 
    color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.55);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -900,10 +900,10 @@ entry.warning:focus {
 
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #f14736;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#f12712,#f14736); }
@@ -914,10 +914,10 @@ entry.warning image {
 
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 entry.search-missing selection:focus,  
 entry.search-missing selection, 
@@ -928,10 +928,10 @@ entry.error selection{
 
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #f14736;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#f12712,#f14736); }
@@ -958,15 +958,15 @@ entry selection:focus{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  background-color: #2357d6; }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+  background-color: #999999; }
 
 entry selection:disabled{
 
-  background-color: #2357d6;
+  background-color: #999999;
   text-shadow: none;
   color: #90b5ec; }
 
@@ -980,10 +980,10 @@ osd entry:focus {
   border-radius: 5px;
   color: #cacaca;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border: 1px solid;
   border-color:#7c7d80 #535457 #3e3f41 #535457;
   background-color: transparent;
@@ -1000,10 +1000,10 @@ osd entry:focus {
 .osd entry:disabled {
 color: #505050;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border: 1px solid;
   border-color:#6d6e70 #4b4c4e #3e3f41 #4b4c4e;
   background-color: transparent;
@@ -1036,11 +1036,11 @@ button {
   padding: 1px 4px 1px 4px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);}
@@ -1051,10 +1051,10 @@ button:hover {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -1065,10 +1065,10 @@ button:active{
   font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
@@ -1080,10 +1080,10 @@ button:checked:hover{
   font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
@@ -1093,10 +1093,10 @@ button:disabled {
   
   color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.55);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -1108,10 +1108,10 @@ button:disabled:active{
 
    color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.55);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -1231,10 +1231,10 @@ button.osd:active {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(26, 28, 34, 0.35);
   background-color: #8c8c8c; }
 
@@ -1242,10 +1242,10 @@ button.osd:checked {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(26, 28, 34, 0.35);
   background-color: #8c8c8c; }
 
@@ -1278,10 +1278,10 @@ button.osd.image-button {
   background-clip: padding-box;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(26, 28, 34, 0.35);
   background-color: #8c8c8c; }
 
@@ -1290,10 +1290,10 @@ button.osd.image-button {
   background-clip: padding-box;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(26, 28, 34, 0.35);
   background-color: #8c8c8c; }
 
@@ -1327,10 +1327,10 @@ button.osd.image-button {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(26, 28, 34, 0.35);
   background-color: #8c8c8c; }
 
@@ -1338,10 +1338,10 @@ button.osd.image-button {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(26, 28, 34, 0.35);
   background-color: #8c8c8c; }
 
@@ -1377,10 +1377,10 @@ osd button.sidebar-button {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(26, 28, 34, 0.35);
   background-color: #8c8c8c; }
 
@@ -1388,10 +1388,10 @@ osd button.sidebar-button {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(26, 28, 34, 0.35);
   background-color: #8c8c8c; }
 
@@ -1521,10 +1521,10 @@ button.suggested-action {
    font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
@@ -1545,10 +1545,10 @@ button.suggested-action:hover {
   font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
@@ -1560,10 +1560,10 @@ button.suggested-action:active{
  font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
@@ -1575,10 +1575,10 @@ button.suggested-action:checked {
    font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
@@ -1598,10 +1598,10 @@ button.suggested-action:disabled,
   
   color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.55);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -1637,10 +1637,10 @@ button.destructive-action {
   background-clip: border-box;
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #F04A50;
   background-image: linear-gradient(to bottom, #F04A50,
                                                #F04A50);
@@ -1653,10 +1653,10 @@ button.destructive-action:hover {
   background-clip: border-box;
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #f3313a;
   background-image: linear-gradient(to bottom, #f3313a,
                                                #f3313a);
@@ -1668,10 +1668,10 @@ button.destructive-action:active{
   background-clip: border-box;
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #f3313a;
   background-image: linear-gradient(to bottom, #f3313a,
                                                #f3313a);
@@ -1683,10 +1683,10 @@ button.destructive-action:checked {
   background-clip: border-box;
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #f3313a;
   background-image: linear-gradient(to bottom, #f3313a,
                                                #f3313a);
@@ -1745,10 +1745,10 @@ modelbutton.flat{
 
    color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); 
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); 
   transition: none;
   min-height: 20px;
   padding-left: 6px;
@@ -1762,10 +1762,10 @@ modelbutton.flat:hover {
  
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: transparent;
   background-image:linear-gradient(to bottom,#2e69eb,#295ed5);}
   
@@ -1774,19 +1774,19 @@ modelbutton.flat:active arrow{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 modelbutton.flat:selected arrow{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);}
 
 modelbutton.flat:selected arrow:disabled,
 modelbutton.flat:disabled:selected,
@@ -2064,11 +2064,11 @@ toolbar.bottom-toolbar button{
   padding: 1px 4px 1px 4px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);}
@@ -2078,10 +2078,10 @@ toolbar.bottom-toolbar button{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -2106,10 +2106,10 @@ toolbar.bottom-toolbar button{
 
   color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.55);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -2224,11 +2224,11 @@ toolbar.bottom-toolbar button{
   padding: 1px 4px 1px 4px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);}
@@ -2238,10 +2238,10 @@ toolbar.bottom-toolbar button{
 
  color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -2266,10 +2266,10 @@ toolbar.bottom-toolbar button{
 
    color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.55);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -2365,10 +2365,10 @@ border-radius: 5px;
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #0277db;
   background-color: #8c8c8c;
   background-image: linear-gradient(to bottom,#8c8c8c,#1c59b5);
@@ -2388,10 +2388,10 @@ border-radius: 5px;
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #8c8c8c;
   background-color: #4b86e0;
   background-image: linear-gradient(to bottom,#4b86e0,#8c8c8c);
@@ -2401,10 +2401,10 @@ border-radius: 5px;
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color:  #0277db;
   background-color: #8c8c8c;
   background-image: linear-gradient(to bottom,#8c8c8c,#8c8c8c);
@@ -2414,10 +2414,10 @@ border-radius: 5px;
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color:  #0277db;
   background-color: #8c8c8c;
   background-image: linear-gradient(to bottom,#8c8c8c,#8c8c8c);
@@ -2459,10 +2459,10 @@ border-radius: 5px;
   background-clip: border-box;
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #F04A50;
   background-image: linear-gradient(to bottom, #F04A50,
                                                #F04A50);
@@ -2487,10 +2487,10 @@ border-radius: 5px;
   background-clip: border-box;
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #f3313a;
   background-image: linear-gradient(to bottom, #f3313a,
                                                #f3313a);
@@ -2501,10 +2501,10 @@ border-radius: 5px;
   background-clip: border-box;
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #f3313a;
   background-image: linear-gradient(to bottom, #f3313a,
                                                #f3313a);
@@ -2515,10 +2515,10 @@ border-radius: 5px;
   background-clip: border-box;
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #f3313a;
   background-image: linear-gradient(to bottom, #f3313a,
                                                #f3313a);
@@ -2561,10 +2561,10 @@ border-radius: 5px;
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 .primary-toolbar spinbutton:not(.vertical) button{
 
@@ -2587,10 +2587,10 @@ primary-toolbar spinbutton:not(.vertical) button:checked,
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #505050;
   background-color: rgba(255,255,255, 0.45); }
 
@@ -2642,11 +2642,11 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   padding: 1px 4px 1px 4px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);}
@@ -2659,11 +2659,11 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   padding: 1px 4px 1px 4px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);}
@@ -2672,10 +2672,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -2685,10 +2685,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
 
  color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -2697,10 +2697,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
 
   color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.55);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -2789,10 +2789,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   background-image: none;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   
   border-color:  #0277db;
   background-color: #8c8c8c;
@@ -2805,10 +2805,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   background-image: none;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   }
 
 .selection-mode.primary-toolbar button.sidebar-button {
@@ -2818,10 +2818,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   background-image: linear-gradient(to bottom,#8c8c8c,#8c8c8c);
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);}
 
 .selection-mode.primary-toolbar button:hover{
 
@@ -2830,10 +2830,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   background-image: linear-gradient(to bottom,#8c8c8c,#8c8c8c);
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);}
 
 .selection-mode.primary-toolbar button:disabled{
 
@@ -2842,10 +2842,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   background-color: #8c8c8c;
   background-image: linear-gradient(to bottom,#8c8c8c,#8c8c8c);
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);}
 
 .selection-mode.primary-toolbar button:active{
 
@@ -2854,10 +2854,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   background-image: linear-gradient(to bottom,#8c8c8c,#8c8c8c);
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);}
 
 .selection-mode.primary-toolbar button:checked{
 
@@ -2866,10 +2866,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   background-image: linear-gradient(to bottom,#8c8c8c,#8c8c8c);
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);}
 
 .selection-mode.primary-toolbar button:hover:active{
 
@@ -2878,10 +2878,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   background-image: linear-gradient(to bottom,#8c8c8c,#8c8c8c);
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);}
 
 .selection-mode.primary-toolbar button:hover:checked{
 
@@ -2890,10 +2890,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   background-image: linear-gradient(to bottom,#8c8c8c,#8c8c8c);
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);}
 
 .selection-mode.primary-toolbar button:disabled:active{
 
@@ -2902,10 +2902,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   background-image: linear-gradient(to bottom,#8c8c8c,#8c8c8c);
   color: rgba(255, 255, 255, 0.4);
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);}
 
 .selection-mode.primary-toolbar button:disabled:checked{
 
@@ -2914,10 +2914,10 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
   background-image: linear-gradient(to bottom,#8c8c8c,#8c8c8c);
   color: rgba(255, 255, 255, 0.4);
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);}
 
 .selection-mode.primary-toolbar button:disabled label{
 
@@ -3075,11 +3075,11 @@ inline-toolbar {
   padding: 1px 4px 1px 4px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);}
@@ -3088,10 +3088,10 @@ inline-toolbar {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -3116,10 +3116,10 @@ inline-toolbar {
 
  color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.55);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -4078,11 +4078,11 @@ spinbutton button:active {
   border-radius: 5px;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
  /* background-image: image(#676767); */ }
 
 /*(((((((( SPINBUTTON BUTTON NON (.VERTICAL) related )))))))))))*/
@@ -4234,11 +4234,11 @@ headerbar entry {
   padding: 1px 4px 1px 4px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);}
@@ -4247,10 +4247,10 @@ headerbar entry:disabled {
 
  color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -4259,10 +4259,10 @@ headerbar entry selection:focus {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #8c8c8c;
   background-color: #8c8c8c;
   background-clip: border-box; }
@@ -4279,10 +4279,10 @@ headerbar entry image:focus {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 headerbar entry progress {
 
@@ -4299,10 +4299,10 @@ headerbar entry.warning {
 
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #F27835;
   background-color: rgba(238, 162, 121, 0.98); }
 
@@ -4310,10 +4310,10 @@ headerbar entry.warning:focus {
 
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #F27835; }
 
 headerbar entry.warning selection{
@@ -4329,10 +4329,10 @@ headerbar entry.warning selection{
 headerbar entry.error {
   color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #f14736;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#f12712,#f14736); }
@@ -4346,10 +4346,10 @@ headerbar entry.error selection:focus {
 
    color: white;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #f14736;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#f12712,#f14736); }
@@ -4367,11 +4367,11 @@ headerbar button {
   padding: 1px 4px 1px 4px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);
@@ -4382,10 +4382,10 @@ headerbar button:hover {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -4412,10 +4412,10 @@ headerbar button:disabled {
   
   color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -4451,11 +4451,11 @@ headerbar button.text-button {
   border-radius: 5px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);
@@ -4467,10 +4467,10 @@ headerbar button.text-button:hover {
 
    color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -4502,11 +4502,11 @@ headerbar button.text-button.image-button{
   padding: 1px 8px 1px 8px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);
@@ -4517,10 +4517,10 @@ headerbar button.text-button.image-button:hover{
 
  color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -4553,11 +4553,11 @@ headerbar button.image-button{
  
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);
@@ -4569,10 +4569,10 @@ headerbar button.image-button:hover{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -4600,10 +4600,10 @@ headerbar button.suggested-action {
   font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
  
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
@@ -4624,10 +4624,10 @@ headerbar button.suggested-action:hover {
  font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
  
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
@@ -4638,10 +4638,10 @@ headerbar button.suggested-action.flat:disabled{
 
   color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -4658,10 +4658,10 @@ headerbar button.suggested-action:disabled {
   
    color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -4679,10 +4679,10 @@ headerbar button.destructive-action {
   background-clip: border-box;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05)
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05)
   background-color: transparent;
   background-image: linear-gradient(to bottom, #F04A50,#e53a42);
   border-color: #e53a42; }
@@ -4708,10 +4708,10 @@ headerbar button.destructive-action:hover {
   background-clip: border-box;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05)
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05)
   background-color: transparent;
   background-image: linear-gradient(to bottom, #F04A50,#e53a42);
   border-color: #e53a42; }
@@ -4742,10 +4742,10 @@ headerbar .linked:not(.vertical).path-bar > button {
 
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);
   border: 0.8px solid;
@@ -4760,20 +4760,20 @@ headerbar .linked:not(.vertical).path-bar > button:hover {
 
    color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
   
   /*color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color:#7c7d80 #535457 #3e3f41 #535457;
   background-color: transparent;
   background-image: image(#797a7c);*/
@@ -4844,20 +4844,20 @@ headerbar .linked:not(.vertical).path-bar > button:hover:not(:checked):not(:acti
 
    color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
   
   /*color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color:#7c7d80 #535457 #3e3f41 #535457;
   background-color: transparent;
   background-image: image(#797a7c);*/
@@ -4866,10 +4866,10 @@ headerbar .linked:not(.vertical).path-bar > button:hover:not(:checked):not(:acti
 
     color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -4878,10 +4878,10 @@ headerbar .linked:not(.vertical).path-bar > button:hover:not(:checked):not(:acti
 
     color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -5006,10 +5006,10 @@ headerbar .linked:not(.vertical):not(.path-bar) > button{
   min-width: 16px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);
   border: 0.8px solid;
@@ -5025,10 +5025,10 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:hover{
 
  color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -5053,10 +5053,10 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:disabled {
 
   color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -5120,11 +5120,11 @@ headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button{
   padding: 1px 4px 1px 4px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);
@@ -5135,14 +5135,14 @@ headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
-  /*border-color: #7c7d80 #7c7d80 #3e3f41 #7c7d80;	*/		  
+  /*border-color: #7c7d80 #7c7d80 #3e3f41 #7c7d80;  */      
   /*border-color:#7c7d80 #535457 #3e3f41 #535457;*/
   /*background-color: transparent;
   background-image: linear-gradient(to bottom,#797a7c,#797a7c);}*/
@@ -5168,10 +5168,10 @@ headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:disabled
 
   color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.55);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -5229,10 +5229,10 @@ headerbar spinbutton:not(.vertical):focus {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 
 headerbar spinbutton:not(.vertical) button{
@@ -5256,10 +5256,10 @@ headerbar spinbutton:not(.vertical) button:active{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(105, 105, 105, 0.3);
   background-color: rgba(0, 0, 0, 0.45); }
 
@@ -5267,10 +5267,10 @@ headerbar spinbutton:not(.vertical) button:checked {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(105, 105, 105, 0.3);
   background-color: rgba(0, 0, 0, 0.45); }
 
@@ -5324,11 +5324,11 @@ headerbar combobox > .linked > button.combo {
 
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-				  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+          
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);}
@@ -5346,10 +5346,10 @@ headerbar combobox > .linked > button.combo:hover {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #6d6d6f 2px, #6d6d6f,#6d6d6f);}
@@ -5359,10 +5359,10 @@ headerbar combobox > .linked > button.combo:disabled {
 
   color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.55);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -5558,11 +5558,11 @@ infobar.warning{
   border-radius: 0px 0px 5px 5px;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  background-color: transparent;			  
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
+  background-color: transparent;        
   background-image:url("objects-dark/other/blurredT.png");
   background-size: cover; } 
 
@@ -5580,10 +5580,10 @@ infobar.info button{
   font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#67686a,#626366);
   border-color:#7c7d80 #535457 #3e3f41 #535457;}
@@ -5614,10 +5614,10 @@ infobar.info button.flat:hover{
   border-color: #ed1010;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);}
 
 infobar.error button.sidebar-button,
 infobar.warning button.sidebar-button,
@@ -5626,10 +5626,10 @@ infobar.info button.sidebar-button{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #265bb3;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#8c8c8c,#265bb3); }
@@ -5653,10 +5653,10 @@ infobar.error button.sidebar-button:disabled label{
   
   color: #555555;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-radius: 0px;
   border-color:#7c7d80 #535457 #3e3f41 #535457;
   background-color: transparent;
@@ -5686,10 +5686,10 @@ infobar.info button:hover{
   font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #5592dc #5592dc #3375c6 #5592dc;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#8c8c8c,#8c8c8c);}
@@ -5709,10 +5709,10 @@ infobar.info button:disabled{
 
   color: #555555;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-radius: 0px;
   border-color:#7c7d80 #535457 #3e3f41 #535457;
   background-color: transparent;
@@ -5841,10 +5841,10 @@ statusbar{
   padding: 0 8px;
  color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
 }
 
 statusbar button,
@@ -5859,10 +5859,10 @@ statusbar button:checked:focus{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border: none;
   background-color: transparent;
   background-image: none;
@@ -5880,10 +5880,10 @@ statusbar button:backdrop:checked:focus{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border: none;
   background-color: transparent;
   background-image: none;
@@ -6314,10 +6314,10 @@ menuitem.button.flat:hover {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: transparent;
   background-image:linear-gradient(to right,rgba(56,131,224,0.8),rgba(56,131,224,1),rgba(56,131,224,1),rgba(56,131,224,0.8));}
 
@@ -6325,10 +6325,10 @@ menuitem.button.flat:active{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: transparent;
   background-image:linear-gradient(to right,rgba(56,131,224,0.8),rgba(56,131,224,1),rgba(56,131,224,1),rgba(56,131,224,0.8));}
 
@@ -6340,10 +6340,10 @@ menuitem.button.flat:selected{
   
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #8c8c8c; }
 
 menuitem.button.flat:disabled:selected{
@@ -6374,20 +6374,20 @@ menuitem.button.flat:active arrow{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #8c8c8c; }
 
 menuitem.button.flat:selected arrow{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #8c8c8c; }
 
 menuitem.button.flat:selected arrow:disabled{
@@ -6460,10 +6460,10 @@ menubar > menuitem{
   border-top-left-radius: 2px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   padding: 2px 8px;
   border: solid transparent;
   border-width: 0; }
@@ -6473,10 +6473,10 @@ menubar > menuitem:hover{
 
   color: #ffffff;
   text-shadow:    0 -1px alpha(#ffffff, 0.3),
-				 -1px  0px alpha(#0b2e5a, 0.06),
-				  1px  0px alpha(#0b2e5a, 0.06),
-				  0px  1px alpha(#0b2e5a, 0.3),
-				  0px  2px alpha(#0b2e5a, 0.06);
+         -1px  0px alpha(#0b2e5a, 0.06),
+          1px  0px alpha(#0b2e5a, 0.06),
+          0px  1px alpha(#0b2e5a, 0.3),
+          0px  2px alpha(#0b2e5a, 0.06);
   background-color: transparent;
   background-image:linear-gradient(to bottom,#2e69eb,#285fd5);}
   
@@ -6510,10 +6510,10 @@ menu,
   padding-bottom: 6px;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
    background-color: rgba(64,64,64,0.98);
   background-image:url("objects-dark/other/blurredT.png");
   background-size: cover;}
@@ -6558,10 +6558,10 @@ menu menuitem{
 
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   min-height: 16px;
   min-width: 42px;
   padding-top: 2px;
@@ -6574,10 +6574,10 @@ menu menuitem:hover{
 
   color: #ffffff;
   text-shadow:    0 -1px alpha(#ffffff, 0.3),
-				 -1px  0px alpha(#0b2e5a, 0.06),
-				  1px  0px alpha(#0b2e5a, 0.06),
-				  0px  1px alpha(#0b2e5a, 0.3),
-				  0px  2px alpha(#0b2e5a, 0.06);
+         -1px  0px alpha(#0b2e5a, 0.06),
+          1px  0px alpha(#0b2e5a, 0.06),
+          0px  1px alpha(#0b2e5a, 0.3),
+          0px  2px alpha(#0b2e5a, 0.06);
   background-color: transparent;
   background-image:linear-gradient(to bottom,#8c8c8c,#8c8c8c);}
 
@@ -7292,20 +7292,20 @@ row:selected{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #8c8c8c; }
 
 row:selected label{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 row:selected label:disabled{
 
@@ -7339,10 +7339,10 @@ row.activatable:selected:active {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 row.activatable:selected.has-open-popup, row.activatable:selected:hover {
 
@@ -7354,10 +7354,10 @@ row:selected button{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: rgba(255, 255, 255, 0);
   border-color:#505050; }
 
@@ -7368,10 +7368,10 @@ row:selected button.flat{
   background-image: none;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 row:selected button.sidebar-button{
 
@@ -7380,10 +7380,10 @@ row:selected button.sidebar-button{
   background-image: none;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 row:selected button.flat:disabled{
 
@@ -7405,10 +7405,10 @@ row:selected button:hover{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.4); }
   
@@ -7532,10 +7532,10 @@ row:selected progressbar trough{
   padding: 10px;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: rgba(64,64,64,0.92);
   background-image:url("objects-dark/other/blurredT.png");
   border: 1px solid black;
@@ -7556,10 +7556,10 @@ row:selected progressbar trough{
   font-weight: normal;
   color: #cacaca;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color:#7c7d80 #535457 #3e3f41 #535457;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#67686a,#626366);}
@@ -7568,10 +7568,10 @@ row:selected progressbar trough{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #5592dc #5592dc #3375c6 #5592dc;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#8c8c8c,#8c8c8c);}
@@ -7581,10 +7581,10 @@ row:selected progressbar trough{
   font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color:#7c7d80 #535457 #3e3f41 #535457;
   background-color: transparent;
   background-image: image(#797a7c);}
@@ -7609,19 +7609,19 @@ row:selected progressbar trough{
   border-color: #ed1010;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);}
 
 .app-notification button:disabled {
  
   color: #555555;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-radius: 0px;
   border-color:#7c7d80 #535457 #3e3f41 #535457;
   background-color: transparent;
@@ -7758,10 +7758,10 @@ messagedialog.csd .dialog-action-area button:active{
   font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
@@ -7774,10 +7774,10 @@ messagedialog.csd .dialog-action-area button:not(.suggested-action):not(.destruc
   font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
@@ -7790,10 +7790,10 @@ messagedialog.csd .dialog-action-area button:not(.suggested-action):not(.destruc
   font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
@@ -7824,10 +7824,10 @@ messagedialog.csd .dialog-action-area button:disabled{
 
   color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.55);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -7844,10 +7844,10 @@ messagedialog.csd .dialog-action-area button:disabled{
   border: none;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); 
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); 
   background-color:transparent;
   background-image:url"linear-gradient(to bottom left,rgba(242,243,246,0.92),rgba(219,224,230,0.93),rgba(215,220,226,0.93),rgba(219,224,230,0.93));
 }
@@ -7972,10 +7972,10 @@ assistant .sidebar label.highlight {
   background-color: #8c8c8c;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 
 /*********** stacksidebar **********/
@@ -8086,11 +8086,11 @@ placessidebar.sidebar row.sidebar-row{
  border: none;
   color: #dddddd;
   /*font-weight: bold;*/
-  	text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.7),
-				  0px  2px alpha(#202020, 0.05);
+    text-shadow:  0px -1px alpha(#ffffff, 0.04),
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.7),
+          0px  2px alpha(#202020, 0.05);
 -gtk-icon-shadow: 0px 1px alpha(#202020, 0.2);}
 
 placessidebar.sidebar row.sidebar-row.has-open-popup:selected{
@@ -8102,10 +8102,10 @@ placessidebar.sidebar row.sidebar-row:selected{
   color: #ffffff;
   font-weight: bold;
   text-shadow:  0px -1px alpha(#202020, 0.02),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.15),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.15),
+          0px  2px alpha(#202020, 0.05);
 -gtk-icon-shadow: 0px 1px alpha(#202020, 0.2);
   background-color: transparent;
   background-image:linear-gradient(to right,rgba(255,255,255,0.05),rgba(255,255,255,0.1),rgba(255,255,255,0.08),rgba(255,255,255,0.1)); }
@@ -8115,10 +8115,10 @@ placessidebar.sidebar row.sidebar-row:selected:hover{
   color: #ffffff;
   font-weight: bold;
   text-shadow:  0px -1px alpha(#202020, 0.02),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.15),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.15),
+          0px  2px alpha(#202020, 0.05);
 -gtk-icon-shadow: 0px 1px alpha(#202020, 0.2);
   background-color: transparent;
   background-image:linear-gradient(to right,rgba(255,255,255,0.09),
@@ -8132,11 +8132,11 @@ placessidebar.sidebar row.sidebar-row:active:hover{
 placessidebar.sidebar row.sidebar-row .sidebar-icon{
 
   color: #cacaca;
-  	text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.7),
-				  0px  2px alpha(#202020, 0.05);
+    text-shadow:  0px -1px alpha(#ffffff, 0.04),
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.7),
+          0px  2px alpha(#202020, 0.05);
 -gtk-icon-shadow: 0px 1px alpha(#202020, 0.2);}
  
 placessidebar.sidebar row.sidebar-row.has-open-popup{
@@ -8156,11 +8156,11 @@ placessidebar.sidebar row.sidebar-row:disabled{
 placessidebar.sidebar row.sidebar-row:selected.has-open-popup{
 
   color: #ffffff;
-	text-shadow:  0px -1px alpha(#202020, 0.02),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.15),
-				  0px  2px alpha(#202020, 0.05);
+  text-shadow:  0px -1px alpha(#202020, 0.02),
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.15),
+          0px  2px alpha(#202020, 0.05);
 -gtk-icon-shadow: 0px 1px alpha(#202020, 0.2);
   background-color: rgba(0, 0, 0, 0.45); }
   
@@ -8178,11 +8178,11 @@ placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon{
 placessidebar.sidebar row.sidebar-row:active:hover{
 
   color: #ffffff;
-	text-shadow:  0px -1px alpha(#202020, 0.02),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.15),
-				  0px  2px alpha(#202020, 0.05);
+  text-shadow:  0px -1px alpha(#202020, 0.02),
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.15),
+          0px  2px alpha(#202020, 0.05);
 -gtk-icon-shadow: 0px 1px alpha(#202020, 0.2);
   background-color: rgba(0, 0, 0, 0.55); }
 
@@ -8204,10 +8204,10 @@ placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button:activ
 
   color: #ffffff;
   text-shadow:  0px -1px alpha(#202020, 0.02),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.15),
-				  0px  2px alpha(#202020, 0.05);
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.15),
+          0px  2px alpha(#202020, 0.05);
   border-color: #8c8c8c;
   background-color: #8c8c8c; }
 
@@ -8248,10 +8248,10 @@ placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected{
 
   color: #ffffff;
   text-shadow:  0px -1px alpha(#202020, 0.02),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.15),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.15),
+          0px  2px alpha(#202020, 0.05); }
  
 placessidebar row:drop(active):not(:disabled):selected {
 
@@ -8343,19 +8343,19 @@ placessidebar row:drop(active):not(:disabled):selected{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 placessidebar row:drop(active):not(:disabled):selected label{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05); }
 
 placessidebar row:drop(active):not(:disabled):selected image {
 
@@ -8873,10 +8873,10 @@ iconview.open-document-selector-treeview:hover:selected {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #8c8c8c; }
 
 .open-document-selector-name-label {
@@ -9010,10 +9010,10 @@ conflict-row.activatable{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: #8c8c8c; }
 
 
@@ -9151,10 +9151,10 @@ button.documents-favorite:active:hover {
  /* font-size: larger;*/
   color: #cacaca;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.6),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.6),
+          0px  2px alpha(#202020, 0.05);}
  
 .tweak-categories{
  
@@ -9163,10 +9163,10 @@ button.documents-favorite:active:hover {
   background-size: cover;
   color: #cacaca;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.6),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.6),
+          0px  2px alpha(#202020, 0.05);}
 
 .tweak-category:not(:selected):not(:hover) {
 
@@ -9797,10 +9797,10 @@ GtkListBox .h4 {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #8c8c8c;
   background-color: #8c8c8c; }
 
@@ -9808,10 +9808,10 @@ GtkListBox .h4 {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: #8c8c8c;
   background-color: #8c8c8c; }
 
@@ -9860,10 +9860,10 @@ GtkListBox .h4 {
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(26, 28, 34, 0.35);
   background-color: #8c8c8c; }
 
@@ -10182,20 +10182,20 @@ headerbar{
 headerbar .title{
 
   text-shadow:  /*0 -1px alpha(#ffffff, 0.04),*/
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   padding-left: 12px;
   padding-right: 12px; }
 
 headerbar .subtitle{
 
   text-shadow: /* 0 -1px alpha(#ffffff, 0.04),*/
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   opacity: 0.75;
   font-size: smaller;
   padding-left: 12px;
@@ -10205,10 +10205,10 @@ headerbar.selection-mode{
 
   color: #ffffff;
   text-shadow:  0px -1px alpha(#202020, 0.02),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.15),
-				  0px  2px alpha(#202020, 0.05);
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.15),
+          0px  2px alpha(#202020, 0.05);
   background-color: #8c8c8c;
   border-color: #285d9f;
   /*box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);*/ }
@@ -10221,10 +10221,10 @@ headerbar.selection-mode{
 
   color: rgba(255, 255, 255, 0.6);
   text-shadow:  0px -1px alpha(#202020, 0.02),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.15),
-				  0px  2px alpha(#202020, 0.05);
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.15),
+          0px  2px alpha(#202020, 0.05);
   background-color: #8c8c8c;
   border-color: #8c8c8c;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08); }*/
@@ -10329,10 +10329,10 @@ headerbar.selection-mode button{
   background-image: linear-gradient(to bottom,#8c8c8c,#1c59b5);
   color: #ffffff;
   text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.4),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.4),
+          0px  2px alpha(#202020, 0.05);}
 
 headerbar.selection-mode button.flat{
 
@@ -10341,10 +10341,10 @@ headerbar.selection-mode button.flat{
   background-image: none;
   color: #ffffff;
   text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.4),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.4),
+          0px  2px alpha(#202020, 0.05);}
 
 headerbar.selection-mode button.sidebar-button {
 
@@ -10353,10 +10353,10 @@ headerbar.selection-mode button.sidebar-button {
   background-image: none;
   color: #ffffff;
   text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.4),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.4),
+          0px  2px alpha(#202020, 0.05);}
 
 headerbar switch:backdrop {
 
@@ -10412,20 +10412,20 @@ headerbar.selection-mode button:hover{
   background-image: linear-gradient(to bottom,#8c8c8c,#1c59b5);
   color: #ffffff;
   text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.4),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.4),
+          0px  2px alpha(#202020, 0.05);}
 
 headerbar.selection-mode button:disabled{
 
   background-image: linear-gradient(to bottom,#8c8c8c,#1c59b5);
  
   text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.4),
-				  0px  2px alpha(#202020, 0.05);
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.4),
+          0px  2px alpha(#202020, 0.05);
   color: rgba(255, 255, 255, 0.4); }
 
 headerbar.selection-mode button:disabled label{
@@ -10438,10 +10438,10 @@ border-color: #1c59b5;
   background-image: linear-gradient(to bottom,#8c8c8c,#1c59b5);
   color: #ffffff;
   text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.4),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.4),
+          0px  2px alpha(#202020, 0.05);}
 
 headerbar.selection-mode button:checked{
 
@@ -10450,10 +10450,10 @@ headerbar.selection-mode button:checked{
   background-image: linear-gradient(to bottom,#8c8c8c,#1c59b5);
   color: #ffffff;
   text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.4),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.4),
+          0px  2px alpha(#202020, 0.05);}
     
 headerbar.selection-mode button:hover:active{
 
@@ -10462,10 +10462,10 @@ headerbar.selection-mode button:hover:active{
   background-image: linear-gradient(to bottom,#8c8c8c,#1c59b5);
   color: #ffffff;
   text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.4),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.4),
+          0px  2px alpha(#202020, 0.05);}
 
 headerbar.selection-mode button:hover:checked{
 
@@ -10474,20 +10474,20 @@ headerbar.selection-mode button:hover:checked{
   background-image: linear-gradient(to bottom,#8c8c8c,#1c59b5);
   color: #ffffff;
   text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.4),
-				  0px  2px alpha(#202020, 0.05);}
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.4),
+          0px  2px alpha(#202020, 0.05);}
 
 headerbar.selection-mode button:disabled:active{
 
   background-image: linear-gradient(to bottom,#8c8c8c,#1c59b5);
  
   text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.4),
-				  0px  2px alpha(#202020, 0.05);
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.4),
+          0px  2px alpha(#202020, 0.05);
   color: rgba(255, 255, 255, 0.4); }
 
 
@@ -10496,10 +10496,10 @@ headerbar.selection-mode button:disabled:checked{
   background-image: linear-gradient(to bottom,#8c8c8c,#1c59b5);
  
   text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.4),
-				  0px  2px alpha(#202020, 0.05);
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.4),
+          0px  2px alpha(#202020, 0.05);
   color: rgba(255, 255, 255, 0.4); }
 
 
@@ -10508,10 +10508,10 @@ headerbar.selection-mode button:disabled:checked{
   background-image: linear-gradient(to bottom,#8c8c8c,#1c59b5);
  
   text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.4),
-				  0px  2px alpha(#202020, 0.05);
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.4),
+          0px  2px alpha(#202020, 0.05);
   color: rgba(255, 255, 255, 0.4); }
 
 headerbar.selection-mode button:disabled:active{
@@ -10519,10 +10519,10 @@ headerbar.selection-mode button:disabled:active{
   background-image: linear-gradient(to bottom,#8c8c8c,#1c59b5);
  
   text-shadow:  0px -1px alpha(#ffffff, 0.04),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.4),
-				  0px  2px alpha(#202020, 0.05);
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.4),
+          0px  2px alpha(#202020, 0.05);
   color: rgba(255, 255, 255, 0.4); }
 
 
@@ -10583,20 +10583,20 @@ window > .titlebar:not(headerbar):backdrop{
 .titlebar:not(headerbar) .title {
 
   text-shadow:  /*0 -1px alpha(#ffffff, 0.04),*/
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   padding-left: 12px;
   padding-right: 12px; }
 
 .titlebar:not(headerbar) .subtitle {
 
   text-shadow:  /*0 -1px alpha(#ffffff, 0.04),*/
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   opacity: 0.75; 
   font-size: smaller;
   padding-left: 12px;
@@ -10639,10 +10639,10 @@ window > .titlebar:not(headerbar):backdrop{
 
   color: #ffffff;
   text-shadow:  0px -1px alpha(#202020, 0.02),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.15),
-				  0px  2px alpha(#202020, 0.05);
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.15),
+          0px  2px alpha(#202020, 0.05);
   background-color: rgba(32, 106, 217, 0.95);
   /*border-color: #8c8c8c;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08); */}
@@ -10652,10 +10652,10 @@ window > .titlebar:not(headerbar):backdrop{
 
   color: rgba(255, 255, 255, 0.6);
   text-shadow:  0px -1px alpha(#202020, 0.02),
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.15),
-				  0px  2px alpha(#202020, 0.05);
+         -1px 0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.15),
+          0px  2px alpha(#202020, 0.05);
   background-color: rgba(32, 106, 217, 0.95);
 /*  border-color: #8c8c8c;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);*/ }
@@ -10934,13 +10934,13 @@ headerbar button.titlebutton.restore:active,
 .nautilus-window .floating-bar {
 
   padding: 1px;
-  background-color: #2357d6;
+  background-color: #999999;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-radius: 2px 2px 0 0; }
 
 .nautilus-window .floating-bar button {
@@ -11633,10 +11633,10 @@ headerbar:only-child{
   
   /*color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: transparent;*/
  /* background-image: linear-gradient(to bottom,#67686a,#626366);
   border: 1px solid;
@@ -11661,10 +11661,10 @@ headerbar:only-child{
   font-weight: normal;
   color: #dddddd;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#7a7b7c, #7a7b7c 1px,#67686a 1px, #67686a,#626366);
   border-color:#5c5d5d #535457 #3e3f41 #535457;
@@ -11684,10 +11684,10 @@ headerbar:only-child{
  
  color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#7a7b7c, #7a7b7c 1px,#67686a 1px, #67686a,#626366);
   border-color:#5c5d5d #535457 #3e3f41 #535457;}
@@ -11698,10 +11698,10 @@ headerbar:only-child{
 .nautilus-window .path-bar button:checked:hover {
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#7a7b7c, #7a7b7c 1px,#67686a 1px, #67686a,#626366);
   border-color:#5c5d5d #535457 #3e3f41 #535457;}
@@ -11712,10 +11712,10 @@ headerbar:only-child{
 
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#7a7b7c, #7a7b7c 1px,#67686a 1px, #67686a,#626366);
   border-color:#5c5d5d #535457 #3e3f41 #535457;}
@@ -12006,10 +12006,10 @@ margin-bottom: -1px;
   font-weight: normal;
   color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
  
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
@@ -12019,10 +12019,10 @@ margin-bottom: -1px;
   
    color: #939498;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
+         -1px  0px alpha(#202020, 0.05),
+          1px  0px alpha(#202020, 0.05),
+          0px  1px alpha(#202020, 0.3),
+          0px  2px alpha(#202020, 0.05);
   border-color: rgba(0,0,0,0.55);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5e5f60,#5e5f60 1px,#4f5052 1px,#4f5052 2px, #4f5052 2px, #4f5052,#4f5052);}
@@ -12101,5 +12101,4 @@ background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 0.8px,#7a7b7c 0.8px,
 .thunar paned > separator {
 
   background-image: image(#000000); }
-
 
