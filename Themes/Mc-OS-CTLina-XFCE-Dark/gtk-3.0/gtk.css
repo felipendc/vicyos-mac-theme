@@ -47,7 +47,7 @@
 @define-color unfocused_borders rgba(0,0,0,1);
 @define-color warning_color #F27835;
 @define-color error_color #FC4138;
-@define-color success_color #73d216;
+@define-color success_color #aaaaaa;
 @define-color placeholder_text_color #A8A8A8;
 @define-color link_color #1954ad;
 @define-color content_view_bg #ffffff;
@@ -7107,8 +7107,8 @@ levelbar block.high {
 
 levelbar block.full {
 
-  border-color: #73d216;
-  background-color: #73d216; }
+  border-color: #aaaaaa;
+  background-color: #aaaaaa; }
 
 levelbar block.empty {
 
