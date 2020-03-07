@@ -6580,7 +6580,7 @@ menu menuitem:hover{
 				  0px  1px alpha(#0b2e5a, 0.3),
 				  0px  2px alpha(#0b2e5a, 0.06);
   background-color: transparent;
-  background-image:linear-gradient(to bottom,#295ed5,#2357d6);}
+  background-image:linear-gradient(to bottom,#8c8c8c,#8c8c8c);}
 
 menu menuitem check{
 
@@ -7050,7 +7050,7 @@ progressbar {
   color: rgba(92, 97, 108, 0.7); }
 
 progressbar progress {
-  background-color: #3273c4;
+  background-color: #8c8c8c;
   border: none;
   border-radius: 3px;
   box-shadow: none; }
@@ -7092,8 +7092,8 @@ levelbar.vertical.discrete block {
 
 levelbar block:not(.empty) {
 
-  border: 1px solid #3273c4;
-  background-color: #3273c4;
+  border: 1px solid #8c8c8c;
+  background-color: #8c8c8c;
   border-radius: 2px; }
 
 levelbar block.low {
@@ -7102,8 +7102,8 @@ levelbar block.low {
 
 levelbar block.high {
 
-  border-color: #3273c4;
-  background-color: #3273c4; }
+  border-color: #8c8c8c;
+  background-color: #8c8c8c; }
 
 levelbar block.full {
 
@@ -7297,7 +7297,7 @@ row:selected{
 				  1px  0px alpha(#202020, 0.05),
 				  0px  1px alpha(#202020, 0.3),
 				  0px  2px alpha(#202020, 0.05);
-  background-color: #2357d6; }
+  background-color: #8c8c8c; }
 
 row:selected label{
 
@@ -7347,7 +7347,7 @@ row.activatable:selected:active {
 
 row.activatable:selected.has-open-popup, row.activatable:selected:hover {
 
-  background-color: #4a85cb; }
+  background-color: #8c8c8c; }
 
 /**********ROW BUTTON *********************************/
 
@@ -7417,9 +7417,9 @@ row:selected button:checked,
 row:selected button:active:hover,
 row:selected button:active{
 
-  background-color: #2357d6;
+  background-color: #8c8c8c;
   color: #ffffff;
-  border-color:#3273c4; }
+  border-color:#8c8c8c; }
 
 row:selected button:disabled{
 
@@ -12102,6 +12102,5 @@ background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 0.8px,#7a7b7c 0.8px,
 .thunar paned > separator {
 
   background-image: image(#000000); }
-
 
 
