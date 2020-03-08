@@ -1931,7 +1931,7 @@ toolbar{
 
   -GtkWidget-window-dragging: true;
  padding: 2px;
-  background-color: #515151;
+  background-color: #353535;
   border-bottom: 1px solid rgba(0,0,0,1)}
 
 toolbar separator{
